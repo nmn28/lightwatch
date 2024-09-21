@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247318D52C9F7790008EA661 /* lightwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 247318D42C9F7790008EA661 /* lightwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		247318DA2C9F7790008EA661 /* lightwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247318D92C9F7790008EA661 /* lightwatchApp.swift */; };
+		247318DC2C9F7790008EA661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247318DB2C9F7790008EA661 /* ContentView.swift */; };
+		247318DE2C9F7791008EA661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247318DD2C9F7791008EA661 /* Assets.xcassets */; };
+		247318E12C9F7791008EA661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247318E02C9F7791008EA661 /* Preview Assets.xcassets */; };
+		247318EB2C9F7791008EA661 /* lightwatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247318EA2C9F7791008EA661 /* lightwatch_Watch_AppTests.swift */; };
+		247318F52C9F7791008EA661 /* lightwatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247318F42C9F7791008EA661 /* lightwatch_Watch_AppUITests.swift */; };
+		247318F72C9F7791008EA661 /* lightwatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247318F62C9F7791008EA661 /* lightwatch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247318D62C9F7790008EA661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247318C82C9F778F008EA661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247318D32C9F7790008EA661;
+			remoteInfo = "lightwatch Watch App";
+		};
+		247318E72C9F7791008EA661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247318C82C9F778F008EA661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247318D32C9F7790008EA661;
+			remoteInfo = "lightwatch Watch App";
+		};
+		247318F12C9F7791008EA661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247318C82C9F778F008EA661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247318D32C9F7790008EA661;
+			remoteInfo = "lightwatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		247318FD2C9F7791008EA661 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				247318D52C9F7790008EA661 /* lightwatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		247318CE2C9F7790008EA661 /* lightwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247318D42C9F7790008EA661 /* lightwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lightwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247318D92C9F7790008EA661 /* lightwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightwatchApp.swift; sourceTree = "<group>"; };
+		247318DB2C9F7790008EA661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		247318DD2C9F7791008EA661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247318E02C9F7791008EA661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		247318E62C9F7791008EA661 /* lightwatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lightwatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247318EA2C9F7791008EA661 /* lightwatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightwatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		247318F02C9F7791008EA661 /* lightwatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lightwatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		247318F42C9F7791008EA661 /* lightwatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightwatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		247318F62C9F7791008EA661 /* lightwatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightwatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247318D12C9F7790008EA661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318E32C9F7791008EA661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318ED2C9F7791008EA661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247318C72C9F778F008EA661 = {
+			isa = PBXGroup;
+			children = (
+				247318D82C9F7790008EA661 /* lightwatch Watch App */,
+				247318E92C9F7791008EA661 /* lightwatch Watch AppTests */,
+				247318F32C9F7791008EA661 /* lightwatch Watch AppUITests */,
+				247318CF2C9F7790008EA661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247318CF2C9F7790008EA661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247318CE2C9F7790008EA661 /* lightwatch.app */,
+				247318D42C9F7790008EA661 /* lightwatch Watch App.app */,
+				247318E62C9F7791008EA661 /* lightwatch Watch AppTests.xctest */,
+				247318F02C9F7791008EA661 /* lightwatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247318D82C9F7790008EA661 /* lightwatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				247318D92C9F7790008EA661 /* lightwatchApp.swift */,
+				247318DB2C9F7790008EA661 /* ContentView.swift */,
+				247318DD2C9F7791008EA661 /* Assets.xcassets */,
+				247318DF2C9F7791008EA661 /* Preview Content */,
+			);
+			path = "lightwatch Watch App";
+			sourceTree = "<group>";
+		};
+		247318DF2C9F7791008EA661 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				247318E02C9F7791008EA661 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		247318E92C9F7791008EA661 /* lightwatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				247318EA2C9F7791008EA661 /* lightwatch_Watch_AppTests.swift */,
+			);
+			path = "lightwatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		247318F32C9F7791008EA661 /* lightwatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				247318F42C9F7791008EA661 /* lightwatch_Watch_AppUITests.swift */,
+				247318F62C9F7791008EA661 /* lightwatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "lightwatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247318CD2C9F7790008EA661 /* lightwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247318FE2C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch" */;
+			buildPhases = (
+				247318CC2C9F7790008EA661 /* Resources */,
+				247318FD2C9F7791008EA661 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247318D72C9F7790008EA661 /* PBXTargetDependency */,
+			);
+			name = lightwatch;
+			productName = lightwatch;
+			productReference = 247318CE2C9F7790008EA661 /* lightwatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		247318D32C9F7790008EA661 /* lightwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247318FA2C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch App" */;
+			buildPhases = (
+				247318D02C9F7790008EA661 /* Sources */,
+				247318D12C9F7790008EA661 /* Frameworks */,
+				247318D22C9F7790008EA661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lightwatch Watch App";
+			productName = "lightwatch Watch App";
+			productReference = 247318D42C9F7790008EA661 /* lightwatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		247318E52C9F7791008EA661 /* lightwatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247319012C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch AppTests" */;
+			buildPhases = (
+				247318E22C9F7791008EA661 /* Sources */,
+				247318E32C9F7791008EA661 /* Frameworks */,
+				247318E42C9F7791008EA661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247318E82C9F7791008EA661 /* PBXTargetDependency */,
+			);
+			name = "lightwatch Watch AppTests";
+			productName = "lightwatch Watch AppTests";
+			productReference = 247318E62C9F7791008EA661 /* lightwatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		247318EF2C9F7791008EA661 /* lightwatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247319042C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch AppUITests" */;
+			buildPhases = (
+				247318EC2C9F7791008EA661 /* Sources */,
+				247318ED2C9F7791008EA661 /* Frameworks */,
+				247318EE2C9F7791008EA661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247318F22C9F7791008EA661 /* PBXTargetDependency */,
+			);
+			name = "lightwatch Watch AppUITests";
+			productName = "lightwatch Watch AppUITests";
+			productReference = 247318F02C9F7791008EA661 /* lightwatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247318C82C9F778F008EA661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					247318CD2C9F7790008EA661 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					247318D32C9F7790008EA661 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					247318E52C9F7791008EA661 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 247318D32C9F7790008EA661;
+					};
+					247318EF2C9F7791008EA661 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 247318D32C9F7790008EA661;
+					};
+				};
+			};
+			buildConfigurationList = 247318CB2C9F778F008EA661 /* Build configuration list for PBXProject "lightwatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247318C72C9F778F008EA661;
+			productRefGroup = 247318CF2C9F7790008EA661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247318CD2C9F7790008EA661 /* lightwatch */,
+				247318D32C9F7790008EA661 /* lightwatch Watch App */,
+				247318E52C9F7791008EA661 /* lightwatch Watch AppTests */,
+				247318EF2C9F7791008EA661 /* lightwatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247318CC2C9F7790008EA661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318D22C9F7790008EA661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247318E12C9F7791008EA661 /* Preview Assets.xcassets in Resources */,
+				247318DE2C9F7791008EA661 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318E42C9F7791008EA661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318EE2C9F7791008EA661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247318D02C9F7790008EA661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247318DC2C9F7790008EA661 /* ContentView.swift in Sources */,
+				247318DA2C9F7790008EA661 /* lightwatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318E22C9F7791008EA661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247318EB2C9F7791008EA661 /* lightwatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247318EC2C9F7791008EA661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247318F52C9F7791008EA661 /* lightwatch_Watch_AppUITests.swift in Sources */,
+				247318F72C9F7791008EA661 /* lightwatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247318D72C9F7790008EA661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247318D32C9F7790008EA661 /* lightwatch Watch App */;
+			targetProxy = 247318D62C9F7790008EA661 /* PBXContainerItemProxy */;
+		};
+		247318E82C9F7791008EA661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247318D32C9F7790008EA661 /* lightwatch Watch App */;
+			targetProxy = 247318E72C9F7791008EA661 /* PBXContainerItemProxy */;
+		};
+		247318F22C9F7791008EA661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247318D32C9F7790008EA661 /* lightwatch Watch App */;
+			targetProxy = 247318F12C9F7791008EA661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		247318F82C9F7791008EA661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247318F92C9F7791008EA661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		247318FB2C9F7791008EA661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lightwatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lightwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NN.lightwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		247318FC2C9F7791008EA661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lightwatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lightwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NN.lightwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		247318FF2C9F7791008EA661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = lightwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NN.lightwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		247319002C9F7791008EA661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = lightwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NN.lightwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247319022C9F7791008EA661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NN.lightwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lightwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		247319032C9F7791008EA661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NN.lightwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lightwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		247319052C9F7791008EA661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NN.lightwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lightwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		247319062C9F7791008EA661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NN.lightwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lightwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247318CB2C9F778F008EA661 /* Build configuration list for PBXProject "lightwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247318F82C9F7791008EA661 /* Debug */,
+				247318F92C9F7791008EA661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247318FA2C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247318FB2C9F7791008EA661 /* Debug */,
+				247318FC2C9F7791008EA661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247318FE2C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247318FF2C9F7791008EA661 /* Debug */,
+				247319002C9F7791008EA661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247319012C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247319022C9F7791008EA661 /* Debug */,
+				247319032C9F7791008EA661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247319042C9F7791008EA661 /* Build configuration list for PBXNativeTarget "lightwatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247319052C9F7791008EA661 /* Debug */,
+				247319062C9F7791008EA661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247318C82C9F778F008EA661 /* Project object */;
+}
